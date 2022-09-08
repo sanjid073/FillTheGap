@@ -20,8 +20,8 @@
         </div>
       </header>
       <section class="form-container">
-        <div class="info-text">
-          <h3>120 to 122</h3>
+        <div id="info-text">
+          <h3 id="q-no">120 to 122</h3>
           <p>
             Please complete the following passage by selecting a word or phrase
             and dragging it into the space in the sentence.Any unused words
@@ -30,8 +30,8 @@
           </p>
         </div>
 
-        <div class="fill-in-gap-box">
-          <form action="">
+        <div id="fill-in-gap-box">
+          <form id="form-text" action="">
             You will need to sit an assessment
             <div class="choice input" id="ans"></div>
             on the information in this
@@ -52,6 +52,32 @@
             <h2>Incorrect words here</h2>
           </div>
         </div>
+
+        <!-- next qustion -->
+        <div id="fill-in-gap-box2">
+          <form id="form-text" action="">
+            We will need to sit fus assessment
+            <div class="choice input" id="ans3"></div>
+            on the information in this
+            <div class="choice input" id="ans4"></div>
+            <br />
+            as part of the licensing application process, so please read all of
+            it
+            <div class="choice input" id="ans5"></div>
+          </form>
+          <span draggable="true">based</span>
+          <span draggable="true">carefully</span>
+          <span draggable="true" id="ff">handbook</span>
+          <span draggable="true">careful</span>
+          <span draggable="true">handbooks</span>
+
+          <span draggable="true">base</span>
+          <div class="choice answer-box">
+            <h2>Incorrect words here</h2>
+          </div>
+        </div>
+
+        <h3 id="score"></h3>
       </section>
       <footer>
         <div>
@@ -60,7 +86,8 @@
         </div>
         <div>
           <button>< Previous question</button>
-          <button onclick="check()">next question ></button>
+          <button onclick="check()" id="nxt-btn">next question ></button>
+          <button onclick="submit()" id="submit-btn">Submit</button>
         </div>
       </footer>
     </section>

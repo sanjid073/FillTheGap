@@ -48,15 +48,15 @@ header {
   top: 40px;
   right: 35px;
 }
-.info-text {
+#info-text {
   margin: 30px;
 }
-.info-text h3 {
+#info-text h3 {
   font-size: 26px;
   font-weight: 500;
   margin-bottom: 10px;
 }
-.info-text p {
+#info-text p {
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -66,7 +66,7 @@ form {
   font-size: 18px;
 }
 
-.fill-in-gap-box {
+#fill-in-gap-box {
   position: relative;
 }
 
@@ -118,4 +118,17 @@ footer button {
   height: 23px;
   color: blue;
   cursor: pointer;
+}
+#submit-btn{
+  display: none;
+}
+
+
+#fill-in-gap-box2{
+  display: none;
+}
+#score{
+  display: none;
+  margin: auto;
+  text-align: center;
 }
