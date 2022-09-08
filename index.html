@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+    <title>assignment</title>
+  </head>
+  <body>
+    <section id="form-section">
+      <header>
+        <div class="h-left">
+          <p>Sep 17 2021 | Logged in as : tryout</p>
+        </div>
+        <div class="h-right">
+          <p>Assessment progress</p>
+          <input type="text" />
+        </div>
+      </header>
+      <section class="form-container">
+        <div class="info-text">
+          <h3>120 to 122</h3>
+          <p>
+            Please complete the following passage by selecting a word or phrase
+            and dragging it into the space in the sentence.Any unused words
+            <b>must</b> be dragged into red box before moving onto the next
+            question.
+          </p>
+        </div>
+
+        <div class="fill-in-gap-box">
+          <form action="">
+            You will need to sit an assessment
+            <div class="choice input" id="ans"></div>
+            on the information in this
+            <div class="choice input" id="ans1"></div>
+            <br />
+            as part of the licensing application process, so please read all of
+            it
+            <div class="choice input" id="ans2"></div>
+          </form>
+          <span draggable="true" id="ff">handbook</span>
+          <span draggable="true">based</span>
+          <span draggable="true">carefully</span>
+          <span draggable="true">handbooks</span>
+          <span draggable="true">careful</span>
+
+          <span draggable="true">base</span>
+          <div class="choice answer-box">
+            <h2>Incorrect words here</h2>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div>
+          <button>Click here to flag this question</button>
+          <button>Click here to review assessment</button>
+        </div>
+        <div>
+          <button>< Previous question</button>
+          <button onclick="check()">next question ></button>
+        </div>
+      </footer>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>

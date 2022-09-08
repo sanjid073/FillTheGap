@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+#form-section {
+  background-color: blue;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.h-left {
+  display: inline-block;
+}
+.h-left p {
+  margin: 12px 55px;
+}
+.h-right p {
+  display: inline-block;
+  margin: 12px 0;
+}
+.h-right input {
+  background: none;
+  border: 1px solid rgb(210, 210, 210);
+  margin: 12px 0;
+  margin-right: 30px;
+}
+
+/* form-container */
+.form-container {
+  position: absolute;
+  background-color: white;
+  height: 90vh;
+  width: 95%;
+  border-radius: 30px;
+  margin: auto;
+  top: 40px;
+  right: 35px;
+}
+.info-text {
+  margin: 30px;
+}
+.info-text h3 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.info-text p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+form {
+  margin: 40px;
+  font-size: 18px;
+}
+
+.fill-in-gap-box {
+  position: relative;
+}
+
+.input {
+  width: 100px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 7px 0;
+  background: #0000000e;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.answer-box {
+  position: absolute;
+  width: 350px;
+  height: 300px;
+  padding: 20px;
+  margin: 10px;
+  background: #ffcece;
+  box-sizing: border-box;
+  display: inline-block;
+  right: 30%;
+  margin-top: 20px;
+}
+.answer-box h2 {
+  z-index: -1;
+  font-size: 26px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+span {
+  padding: 5px;
+  background-color: #0000000e;
+  border: 1px solid black;
+  margin: 2px;
+  background: #0000000e;
+}
+
+/* footer */
+footer {
+  margin: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 91vh;
+}
+footer button {
+  height: 23px;
+  color: blue;
+  cursor: pointer;
+}
